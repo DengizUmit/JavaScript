@@ -1,15 +1,20 @@
 # JavaScript
 JavaScript Tutorial
 
-    HTML
-  Content
+      HTML
+    
+     Content
 < div >...< /div >
 
+
       CSS
+      
     Styling
 div{padding: 0;} 
 
+
     JS
+    
 Programming            
 div.hide()
 
@@ -33,7 +38,7 @@ II.  JavaScript is most commonly used as a part of webpages.
 III. Today, JavaScript can be used in different places:
   -  Client Side : JavaScript was only used in web browsers.
   -  ServerSide  : with Node.Js, we can use it in server side.
-  -  
+  
 IV.  Modern Web Application.
 
 V.   AngularJs, KnockoutJs, React, Vue, Svelte...
