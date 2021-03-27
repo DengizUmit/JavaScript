@@ -3,7 +3,7 @@ JavaScript Tutorial
 
     HTML
   Content
-<div>...</div>
+< div >...< /div >
 
       CSS
     Styling
@@ -27,16 +27,26 @@ Sadık Turan : https://www.youtube.com/watch?v=hHwxdPIUUBo
 
 
 I.   JavaScript is a lightweight, cross platform, object oriented language.
+
 II.  JavaScript is most commonly used as a part of webpages.
+
 III. Today, JavaScript can be used in different places:
   -  Client Side : JavaScript was only used in web browsers.
   -  ServerSide  : with Node.Js, we can use it in server side.
+  -  
 IV.  Modern Web Application.
+
 V.   AngularJs, KnockoutJs, React, Vue, Svelte...
 
+
 * Visual Studio Code *
--HTML Snippets 
+
+-HTML Snippets
+
 -JavaScript (ES6) code snippets 
+
 -HTML CSS Support 
+
 -IntelliSense 
+
 -Live Server 
