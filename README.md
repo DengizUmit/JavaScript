@@ -1,9 +1,17 @@
 # JavaScript
 JavaScript Tutorial
 
-     HTML                   CSS                   JS 
-   Content                Styling             Programming
-<div>...</div>       div { padding: 0;}        div.hide()
+    HTML
+  Content
+<div>...</div>
+
+      CSS
+    Styling
+div{padding: 0;} 
+
+    JS
+Programming            
+div.hide()
 
                 w3schools.com
 JavaScript is the Programming Language for the Web.
@@ -14,6 +22,7 @@ JavaScript can calculate, manipulate and validate data.
 
 
 Yazılım Bilimi : https://www.youtube.com/watch?v=-ei7CLxoOVU
+
 Sadık Turan : https://www.youtube.com/watch?v=hHwxdPIUUBo
 
 
@@ -26,8 +35,8 @@ IV.  Modern Web Application.
 V.   AngularJs, KnockoutJs, React, Vue, Svelte...
 
 * Visual Studio Code *
--HTML Snippets
--JavaScript (ES6) code snippets
--HTML CSS Support
--IntelliSense
--Live Server
+-HTML Snippets 
+-JavaScript (ES6) code snippets 
+-HTML CSS Support 
+-IntelliSense 
+-Live Server 
