@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Koşul ifadeleri - Uygulama </title>
+
+</head>
+
+<body>
+
+    <script>
+
+        /* Uygulama 1 
+
+        var dogum = prompt("Doğum yılınızı giriniz: ");
+        var yil = 2018;
+        var yas = yil-dogum;
+
+        if(yas<18){
+            console.log("Ehliyet alamazsınız");
+            console.log("Ehliyet alabilmek için "+(18-yas)+
+            " sene beklemelisiniz");
+        }else if(yas>=18){
+            console.log("Ehliyet alabilirsiniz");
+        }else{
+            console.log("Yanlış bir değer girdiniz");
+        }
+        */
+
+        /* Uygulama 2 */
+
+        var ay = prompt("Ay bilgisini giriniz");
+
+        switch (ay) {
+            case '12':
+            case '1':
+            case '2':
+                console.log("Kış Mevsimi");
+                break;
+            case '3':
+            case '4':
+            case '5':
+                console.log("İlkbahar Mevsimi");
+                break;
+            case '6':
+            case '7':
+            case '8':
+                console.log("Yaz Mevsimi");
+                break;
+            case '9':
+            case '10':
+            case '11':
+                console.log("Sonbahar Mevsimi");
+                break;
+            default:
+                console.log("Yanlış bir Ay girdiniz");
+        }
+    </script>
+
+</body>
+
+</html>
