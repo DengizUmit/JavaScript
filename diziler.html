@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Diziler  </title>
+
+</head>
+
+<body>
+
+    <script>
+
+        var marka = ["Audi","Opel","Toyota","Mazda","Renault","BMW"];
+        var model = new Array("A7","Corsa","Yaris","CX-3","Clio","Sedan");
+        
+        console.log(marka);
+        console.log(model);
+
+        model[0] = "Astra";
+        console.log(model);
+
+        
+
+        var auris = ["Toyota","Auris",42,true];
+        auris.push('orange');
+        auris.unshift("HB");
+        console.log(auris);
+        auris.pop();
+        auris.shift();
+        console.log(auris);
+
+
+
+        for(var i=0; i<marka.length; i++){
+            console.log(marka[i]);
+        }
+
+
+
+        if(marka.indexOf('BMW')!==-1){
+            console.log(marka[marka.indexOf('Audi')]);
+        }else{
+            console.log("Aradığınız bulunamadı!!!");
+        }
+
+    </script>
+
+</body>
+
+</html>
