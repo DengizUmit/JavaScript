@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Object </title>
+
+</head>
+
+<body>
+
+    <script>
+
+
+        // Arrays
+        var marka = ['Opel', 'Toyota', 'Mazda'];
+        var model = ['Corsa', 'Yaris', 'CX-3'];
+        var yil = ['2015', '2012', '2016'];
+
+        console.log(marka[0] + ' ' + model[0] + ' ' + yil[0]);
+
+
+        var opel = ['Opel', 'Corsa', '2015'];
+        var toyota = ['Toyota', 'Yaris', '2012'];
+        var mazda = ['Mazda', 'CX-3', '2016'];
+
+        console.log(toyota);
+
+        
+
+        // object
+        var opel = {
+            marka: 'Opel',
+            model: 'Corsa',
+            yil: '2015',
+            renk: 'red',
+            otomatik: true
+        };
+
+        console.log(opel.marka);
+        console.log(opel.renk);
+        console.log(opel.yil);
+
+
+        var toyota = new Object();
+        toyota.marka = 'Toyota';
+        toyota.model = 'Yaris';
+        toyota.yil = '2010';
+        toyota.renk = 'black';
+        toyota.otomatik = true;
+
+        console.log(toyota);
+
+        toyota.model = 'Auris';
+
+        console.log(toyota);
+
+
+
+        var arabalar = [
+            {
+                marka: 'Opel',
+                model: 'Corsa',
+                yil: '2015',
+                renk: 'blue',
+                otomatik: true
+            },
+            {
+                marka: 'Mazda',
+                model: 'CX-3',
+                yil: '2017',
+                renk: 'yellow',
+                otomatik: true
+            }
+        ];
+
+        console.log(arabalar[0].model);
+
+        for(var i=0; i<arabalar.length;i++){
+            console.log(arabalar[i].marka);
+        }
+
+
+    </script>
+
+</body>
+
+</html>
