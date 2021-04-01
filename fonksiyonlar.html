@@ -1,0 +1,63 @@
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Fonksiyonlar </title>
+
+</head>
+
+<body>
+
+    <script>
+
+        // Toplama İşlemi
+        
+        function topla(a,b){
+            return a+b;
+        }
+
+        var sonuc = topla(10,20);
+
+        console.log(sonuc);
+        console.log(topla(40,50));
+
+
+
+        // Yaş Hesaplama
+
+        var now = 2021;
+        function yasHesapla(yas){
+            return now-yas;
+        }
+
+        var Cemal = yasHesapla(2004);
+        var Gökhan = yasHesapla(2008);
+
+        console.log(Cemal);
+        console.log(Gökhan);
+
+
+
+        // Emeklilik Yasi Hesaplama
+
+        function emeklilikHesapla(ad,yas){
+            var k_yas = yasHesapla(yas);
+            var emeklilik = 65-k_yas;
+            if(emeklilik > 0){
+                console.log(ad+' '+emeklilik+' yıl sonra emekli olabilir.');
+            }else{
+                console.log(ad+' zaten '+emeklilik*-1+' yıl önce emekli olmuş.');
+            }
+        }
+
+        emeklilikHesapla('Kavak',1998);
+        emeklilikHesapla('Çınar',1950);
+
+
+    </script>
+
+</body>
+
+</html>
