@@ -18,6 +18,8 @@ div{padding: 0;}
 Programming            
 div.hide()
 
+
+
                 w3schools.com
 JavaScript is the Programming Language for the Web.
 
@@ -26,9 +28,12 @@ JavaScript can update and change both HTML and CSS.
 JavaScript can calculate, manipulate and validate data.
 
 
+
+
 Yazılım Bilimi : https://www.youtube.com/watch?v=-ei7CLxoOVU
 
 Sadık Turan : https://www.youtube.com/watch?v=hHwxdPIUUBo
+
 
 
 I.   JavaScript is a lightweight, cross platform, object oriented language.
@@ -42,6 +47,8 @@ III. Today, JavaScript can be used in different places:
 IV.  Modern Web Application.
 
 V.   AngularJs, KnockoutJs, React, Vue, Svelte...
+
+
 
 
 * Visual Studio Code *
